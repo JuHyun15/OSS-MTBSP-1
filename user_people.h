@@ -68,7 +68,7 @@ void print_buy() //파일이 출력안됨 고쳐야함(파일출력함수)
 	int i = 0;
 	FILE *fpin = NULL;
 	buy adult_n, teen_n, senior_n, child_n;
-	fpin = fopen("payment_data.txt", "r");
+	fpin = fopen("user_data.txt", "r");
 
 	fscanf(fpin, "%d", &count);
 
